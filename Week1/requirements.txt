@@ -1,0 +1,33 @@
+# The safe practice is to create different environments 
+# for different groups of packages used for specific jobs.
+# Install 'virtualenv' to manage environments: 
+# 	python -m pip install --user virtualenv
+# Create a new virtual environment:
+#   cd ~/.
+#	python -m venv appmlenv
+# Activate the environment (from environment directory):
+#	source appmlenv/bin/activate
+# Install recommended packages: 
+#	pip install -r requirements.txt
+#
+# * To deactivate 'appmlenv':
+#	deactivate
+# * To remove 'appmlenv':
+#	rm -rf appmlenv
+# List of packages:
+#
+# notebook==6.4.6
+numpy==1.26.4
+scipy==1.13.0
+matplotlib==3.8.4
+pandas==1.4.1
+h5py==3.10.0
+scikit-learn==1.4.2
+xgboost==1.5.2
+lightgbm==4.3.0
+seaborn==0.13.2
+tensorflow==2.16.1
+torch
+torchvision
+torchaudio
+torch-geometric
